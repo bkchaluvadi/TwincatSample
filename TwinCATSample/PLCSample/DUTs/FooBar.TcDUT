@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="FooBar" Id="{051f26e5-e64f-4efc-b968-b0e2a3b02056}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+{attribute 'strict'}
+TYPE FooBar :
+(
+	FOO_BAR_UNSPECIFIED := 0,
+	FOO_BAR_FIRST_VALUE := 1,
+	FOO_BAR_SECOND_VALUE := 2
+);
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

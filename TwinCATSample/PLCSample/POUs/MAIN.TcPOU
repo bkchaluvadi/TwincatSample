@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="MAIN" Id="{69a6140f-d34b-4052-a7f3-57d0088fead9}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	bar : FooBar;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[bar := FooBar.FOO_BAR_FIRST_VALUE;]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
